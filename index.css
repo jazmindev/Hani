@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(222, 136, 154); 
+    color: hsla(347, 57%, 97%, 1);
+    text-align: center;
+}
+
+.container {
+display: flex;
+flex-flow: column;
+align-items: center;
+}
+.container img {
+    max-width: 30vw;
+    margin-top: 1rem;
+
+}
+.hanibox {
+    background: linear-gradient(35deg, hsl(204, 85%, 47%), hsl(204, 94%, 94%));
+    height: 10vh;
+    margin: 0 auto;
+    width: 40vw;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftalign {
+    text-align: left;
+}
